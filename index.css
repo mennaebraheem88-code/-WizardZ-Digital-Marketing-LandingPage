@@ -1,0 +1,1480 @@
+@import url('https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap');
+
+body {
+    font-family: "Slabo 27px", serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+section,
+footer {
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 1%;
+
+}
+
+#home {
+    height: 80vh;
+}
+
+#home .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#home .navbar .logo {
+    display: flex;
+}
+
+#home .navbar .logo img {
+    width: 50px;
+    height: 50px;
+    padding-top: 5px;
+}
+
+#home .navbar .links li {
+    list-style: none;
+}
+
+#home .navbar .links ul {
+    width: auto;
+    display: flex;
+    align-items: center;
+}
+
+#home .navbar .links a {
+    text-decoration: none;
+    padding: 8px;
+    color: black;
+}
+
+#home .navbar .links a:hover {
+    color: #bca9e6;
+}
+
+#home .navbar .btn a {
+    text-decoration: none;
+    padding: 10px;
+    color: #fff;
+    font-weight: 600;
+    background: #9087ab;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1)
+}
+
+#home .navbar .btn a:hover {
+    transform: translateY(-4px) scale(1.05);
+    background-color: transparent;
+    border: 2px solid #1010105a;
+    color: #050505;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+#home .hero-sec {
+    display: flex;
+    justify-content: space-between;
+}
+
+#home .hero-sec .text {
+    margin-top: 90px;
+}
+
+#home .hero-sec .btn2 a {
+    text-decoration: none;
+    padding: 10px;
+    color: #fff;
+    font-weight: 600;
+    background: #9087ab;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1)
+}
+
+#home .hero-sec .btn2 a:hover {
+    transform: translateY(-4px) scale(1.05);
+    background-color: transparent;
+    border: 2px solid #1010105a;
+    color: #050505;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+#home .hero-sec .img {
+    margin: 10px;
+}
+
+#home .hero-sec .img img {
+    width: 700px;
+    height: 580px;
+}
+
+/* ======================services======================= */
+#services {
+    margin-top: 70px;
+}
+
+#services .company {
+    justify-content: space-between;
+    margin: 10px;
+    margin-left: 30px;
+}
+
+#services .img1 {
+    width: 260px;
+    height: 160px;
+}
+
+#services .img2 {
+    width: 220px;
+    height: 150px;
+    padding-top: 10px;
+}
+
+#services .img3 {
+    width: 180px;
+    height: 60px;
+    padding-bottom: 38px;
+    margin: 10px;
+}
+
+#services .img4 {
+    width: 210px;
+    height: 170px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+#services .img5 {
+    width: 150px;
+    height: 120px;
+    padding-bottom: 20px;
+}
+
+#services .main-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f3f8e4;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#services .cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#services .cards .card4,
+#services .cards .card3,
+#services .cards .card2,
+#services .cards .card1 {
+    width: auto;
+    background-color: #e2dcf0;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1)
+}
+
+#services .cards .card4:hover,
+#services .cards .card3:hover,
+#services .cards .card2:hover,
+#services .cards .card1:hover {
+    transform: translateY(-4px) scale(1.05);
+    background-color: #f0f0f6;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+#services .cards .card4:active,
+#services .cards .card3:active,
+#services .cards .card2:active,
+#services .cards .card1:active {
+    transform: translateY(-1px) scale(1.02);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+#services .cards .card4 .parts,
+#services .cards .card3 .parts,
+#services .cards .card2 .parts,
+.parts {
+    padding: 20px;
+}
+
+#services .cards .card1 {
+    margin-top: 90px;
+}
+
+#services .cards .card1 .part1 {
+    display: flex;
+}
+
+#services .cards .card1 h2 {
+    font-size: 35px;
+}
+
+#services .cards .card1 img {
+    width: 280px;
+    height: 240px;
+}
+
+#services .cards .card1 .part2 {
+    display: flex;
+}
+
+#services .cards .card1 .part2 i {
+    font-size: xx-large;
+    color: #73809d;
+}
+
+#services .cards .card1 .part2 h4 {
+    margin: 5px;
+    font-size: 20px;
+}
+
+/* == */
+#services .cards .card2 .part1 {
+    display: flex;
+}
+
+#services .cards .card2 h2 {
+    font-size: 35px;
+}
+
+#services .cards .card2 img {
+    width: 280px;
+    height: 240px;
+    margin: 10px;
+
+}
+
+#services .cards .card2 .part2 {
+    display: flex;
+
+}
+
+#services .cards .card2 .part2 i {
+    font-size: xx-large;
+    color: #8991a6;
+}
+
+#services .cards .card2 .part2 h4 {
+    margin: 5px;
+    font-size: 20px;
+}
+
+/* == */
+#services .cards .card3 .part1 {
+    display: flex;
+}
+
+#services .cards .card3 h2 {
+    font-size: 35px;
+}
+
+#services .cards .card3 img {
+    width: 320px;
+    height: 240px;
+    margin: 10px;
+}
+
+#services .cards .card3 .part2 {
+    display: flex;
+
+}
+
+#services .cards .card3 .part2 i {
+    font-size: xx-large;
+    color: #73809d;
+}
+
+#services .cards .card3 .part2 h4 {
+    margin: 5px;
+    font-size: 20px;
+}
+
+/* == */
+#services .cards .card4 .part1 {
+    display: flex;
+}
+
+#services .cards .card4 h2 {
+    font-size: 35px;
+}
+
+#services .cards .card4 img {
+    width: 280px;
+    height: 240px;
+    margin: 10px;
+}
+
+#services .cards .card4 .part2 {
+    display: flex;
+
+}
+
+#services .cards .card4 .part2 i {
+
+    color: #73809d;
+}
+
+#services .cards .card4 .part2 h4 {
+    margin: 5px;
+    font-size: 20px;
+}
+
+/* ======================pricing======================= */
+#pricing .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 70px;
+}
+
+#pricing .content .text p {
+    margin-bottom: 15px;
+}
+
+#pricing .content .text .btn a {
+    text-decoration: none;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    background: black;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1)
+}
+
+#pricing .content .text .btn a:hover {
+    transform: translateY(-4px) scale(1.05);
+    background-color: transparent;
+    border: 2px solid #1010105a;
+    color: #000000;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+#pricing .content .text .btn {
+    margin-top: 35px;
+}
+
+#pricing .content .img img {
+    width: 700px;
+    height: 580px;
+}
+
+/* ======================study======================= */
+#study .content {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #d5e1fe;
+    border-radius: 10px;
+    margin-top: 70px;
+}
+
+/* ======================footer======================= */
+footer {
+    background-color: #020202;
+    border-radius: 10px;
+    margin-top: 70px;
+}
+
+footer .parts {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+footer .parts .part1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .parts p {
+    color: #fff;
+}
+
+footer .parts .line p {
+    margin-left: 30px;
+    font-weight: 100;
+}
+
+footer .parts .icon a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+}
+
+/* ======================Responsive======================= */
+@media(min-width:320px) and (max-width:480px) {
+
+    section,
+    footer {
+        margin-right: 2%;
+        margin-left: 2%;
+        margin-top: 1%;
+    }
+
+    #home .navbar {
+        flex-direction: column;
+    }
+
+    #home .navbar .logo .l-name h3 {
+        font-size: small;
+    }
+
+    #home .navbar .logo img {
+        width: 30px;
+        height: 30px;
+    }
+
+    #home .navbar .links a {
+        font-size: x-small;
+    }
+
+    #home .navbar .btn a {
+        font-size: small;
+    }
+
+    #home .hero-sec .text h1 {
+        font-size: medium;
+    }
+
+    #home .hero-sec .text p {
+        font-size: xx-small;
+    }
+
+    #home .hero-sec .btn2 a {
+        font-size: xx-small;
+    }
+
+    #home .hero-sec .img {
+        height: 150px;
+    }
+
+    #home .hero-sec .img img {
+        padding-top: 100px;
+        width: 150px;
+        height: 110px;
+        margin-top: 40px;
+    }
+
+    /* ======================services======================= */
+    #services {
+        margin-top: 40px;
+    }
+      #services .company{
+         text-align:center;
+     }
+     
+    #services .img1 {
+        width: 50px;
+        height: 50px;
+    }
+
+    #services .img2 {
+        width: 40px;
+        height: 50px;
+    }
+
+    #services .img3 {
+        width: 30px;
+        height: 15px;
+        padding-bottom: 14px;
+        margin: 5px;
+    }
+
+    #services .img4 {
+        width: 50px;
+        height: 50px;
+    }
+
+    #services .img5 {
+        width: 40px;
+        height: 40px;
+        padding-bottom: 5px;
+    }
+
+    #services .main-text h2 {
+        font-size: medium;
+    }
+
+    #services .main-text p {
+        font-size: xx-small;
+        margin-left: 10px;
+    }
+
+    #services .cards {
+        display: inline-block;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+
+    #services .cards .card4 .part1 h2,
+    #services .cards .card3 .part1 h2,
+    #services .cards .card2 .part1 h2,
+    #services .cards .card1 .part1 h2 {
+        font-size: medium;
+    }
+
+    #services .cards .card4 .parts,
+    #services .cards .card3 .parts,
+    #services .cards .card2 .parts,
+    #services .cards .card1 .parts {
+        padding: 3px;
+    }
+
+    #services .cards .icon i {
+        font-size: xx-small;
+    }
+
+    #services .cards .card1 {
+        margin-top: 10px;
+    }
+
+    #services .cards .card1 img {
+        width: 140px;
+        height: 130px;
+    }
+
+    #services .cards .card1 .part2 h4 {
+        font-size: medium;
+    }
+
+    #services .cards .card2 {
+        margin-top: 20px;
+    }
+
+    #services .cards .card2 img {
+        width: 150px;
+        height: 130px;
+    }
+
+    #services .cards .card2 .part2 h4 {
+        font-size: medium;
+    }
+
+    #services .cards .card3 {
+        margin-top: 10px;
+    }
+
+    #services .cards .card3 img {
+        width: 150px;
+        height: 130px;
+    }
+
+    #services .cards .card3 .part2 h4 {
+        font-size: medium;
+    }
+
+    #services .cards .card4 {
+        margin-top: 20px;
+    }
+
+    #services .cards .card4 img {
+        width: 150px;
+        height: 130px;
+    }
+
+    #services .cards .card4 .part2 h4 {
+        font-size: medium;
+    }
+
+    /* ======================pricing======================= */
+    #pricing .content .text h2 {
+        font-size: medium;
+    }
+
+    #pricing .content .text p {
+        font-size: xx-small;
+    }
+
+    #pricing .content .text .btn a {
+        font-size: x-small;
+    }
+
+    #pricing .content .img img {
+        width: 180px;
+        height: 280px;
+    }
+
+    /* ======================study======================= */
+    #study .content h2 {
+        font-size: medium;
+    }
+
+    #study .content p {
+        font-size: xx-small;
+        margin-left: 5px;
+    }
+
+    footer .parts p {
+        font-size: 6px;
+        margin-left: 6px;
+    }
+
+    footer .parts .line p {
+        display: none;
+    }
+
+    footer .parts {
+        padding-right: 5px;
+    }
+
+    footer .parts .icon i {
+        font-size: x-small;
+    }
+
+    footer .parts .icon a {
+        font-size: x-small;
+    }
+}
+
+@media(min-width:481px) and (max-width:720px) {
+
+    section,
+    footer {
+        margin-right: 3%;
+        margin-left: 3%;
+        margin-top: 2%;
+    }
+
+    #home .navbar .logo .l-name h3 {
+        font-size: small;
+    }
+
+    #home .navbar .logo img {
+        width: 35px;
+        height: 35px;
+    }
+
+    #home .navbar .links a {
+        font-size: x-small;
+    }
+
+    #home .navbar .btn a {
+        font-size: x-small;
+    }
+
+    #home .hero-sec .text h1 {
+        font-size: x-large;
+    }
+
+    #home .hero-sec .text p {
+        font-size: small;
+    }
+
+    #home .hero-sec .btn2 a {
+        font-size: x-small;
+    }
+
+    #home .hero-sec .img img {
+        width: 300px;
+        height: 280px;
+        margin-top: 40px;
+    }
+
+    /* ======================services======================= */
+    #services .img1 {
+        width: 100px;
+        height: 100px;
+    }
+
+    #services .img2 {
+        width: 70px;
+        height: 100px;
+        padding-top: 10px;
+    }
+
+    #services .img3 {
+        width: 50px;
+        height: 30px;
+        padding-bottom: 30px;
+        margin: 5px;
+    }
+
+    #services .img4 {
+        width: 80px;
+        height: 100px;
+    }
+
+    #services .img5 {
+        width: 70px;
+        height: 90px;
+        padding-bottom: 10px;
+    }
+
+    #services .main-text h2 {
+        font-size: large;
+    }
+
+    #services .main-text p {
+        font-size: small;
+        margin-left: 10px;
+    }
+
+    #services .cards {
+        display: inline-block;
+        margin-left: 45px;
+        margin-right: auto;
+    }
+
+    #services .cards .card4 .part1 h2,
+    #services .cards .card3 .part1 h2,
+    #services .cards .card2 .part1 h2,
+    #services .cards .card1 .part1 h2 {
+        font-size: x-large;
+    }
+
+    #services .cards .card4 .parts,
+    #services .cards .card3 .parts,
+    #services .cards .card2 .parts,
+    #services .cards .card1 .parts {
+        padding: 10px;
+    }
+
+    #services .cards .part2 i {
+        font-size: x-large;
+        color: #73809d;
+    }
+
+    #services .cards .card1 {
+        margin-top: 10px;
+    }
+
+    #services .cards .card1 img {
+        width: 190px;
+        height: 140px;
+    }
+
+    #services .cards .card1 .part2 h4 {
+        font-size: large;
+    }
+
+    #services .cards .card2 {
+        margin-top: 20px;
+    }
+
+    #services .cards .card2 img {
+        width: 190px;
+        height: 170px;
+    }
+
+    #services .cards .card2 .part2 h4 {
+        font-size: large;
+    }
+
+    #services .cards .card3 {
+        margin-top: 10px;
+    }
+
+    #services .cards .card3 img {
+        width: 190px;
+        height: 140px;
+    }
+
+    #services .cards .card3 .part2 h4 {
+        font-size: large;
+    }
+
+    #services .cards .card4 {
+        margin-top: 20px;
+    }
+
+    #services .cards .card4 img {
+        width: 190px;
+        height: 170px;
+    }
+
+    #services .cards .card4 .part2 h4 {
+        font-size: large;
+    }
+
+    /* ======================pricing======================= */
+    #pricing .content .text h2 {
+        font-size: large;
+    }
+
+    #pricing .content .text p {
+        font-size: x-small;
+    }
+
+    #pricing .content .text .btn a {
+        font-size: small;
+    }
+
+    #pricing .content .img img {
+        width: 280px;
+        height: 380px;
+    }
+
+    /* ======================study======================= */
+    #study .content h2 {
+        font-size: large;
+    }
+
+    #study .content p {
+        font-size: smaller;
+    }
+
+    footer .parts p {
+        font-size: x-small;
+    }
+
+    footer .parts .line p {
+        display: none;
+    }
+
+    footer .parts {
+        padding-right: 5px;
+    }
+}
+
+@media(min-width:721px) and (max-width:1024px) {
+
+    section,
+    footer {
+        margin-right: 5%;
+        margin-left: 5%;
+        margin-top: 3%;
+    }
+
+    #home .navbar .logo .l-name h3 {
+        font-size: medium;
+    }
+
+    #home .navbar .logo img {
+        width: 45px;
+        height: 45px;
+    }
+
+    #home .navbar .links a {
+        font-size: medium;
+    }
+
+    #home .navbar .btn a {
+        font-size: medium;
+    }
+
+    #home .hero-sec .text h1 {
+        font-size: x-large;
+    }
+
+    #home .hero-sec .text p {
+        font-size: small;
+    }
+
+    #home .hero-sec .btn2 a {
+        font-size: small;
+        padding: 10px;
+    }
+
+    #home .hero-sec .img img {
+        width: 320px;
+        height: 290px;
+        margin-top: 40px;
+    }
+
+    /* ======================services======================= */
+    #services .img1 {
+        width: 120px;
+        height: 120px;
+    }
+
+    #services .img2 {
+        width: 90px;
+        height: 120px;
+        padding-top: 10px;
+    }
+
+    #services .img3 {
+        width: 70px;
+        height: 50px;
+        padding-bottom: 30px;
+        margin: 5px;
+    }
+
+    #services .img4 {
+        width: 100px;
+        height: 120px;
+    }
+
+    #services .img5 {
+        width: 90px;
+        height: 110px;
+        padding-bottom: 10px;
+    }
+
+    #services .main-text h2 {
+        font-size: large;
+    }
+
+    #services .main-text p {
+        font-size: small;
+        margin-left: 20px;
+    }
+
+    #services .cards {
+        display: flex;
+        margin-left: 1px;
+        margin-right: auto;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #services .cards .card4 .part1 h2,
+    #services .cards .card3 .part1 h2,
+    #services .cards .card2 .part1 h2,
+    #services .cards .card1 .part1 h2 {
+        font-size: x-large;
+    }
+
+    #services .cards .card4 .parts,
+    #services .cards .card3 .parts,
+    #services .cards .card2 .parts,
+    #services .cards .card1 .parts {
+        padding: 10px;
+    }
+
+    #services .cards .part2 i {
+        font-size: x-large;
+        color: #73809d;
+    }
+
+    #services .cards .card1 {
+        margin-top: 10px;
+    }
+
+    #services .cards .card1 img {
+        width: 170px;
+        height: 140px;
+    }
+
+    #services .cards .card1 .part2 h4 {
+        font-size: medium;
+    }
+
+    #services .cards .card2 {
+        margin-top: 10px;
+    }
+
+    #services .cards .card2 img {
+        width: 140px;
+        height: 120px;
+    }
+
+    #services .cards .card2 .part2 h4 {
+        font-size: medium;
+    }
+
+    #services .cards .card3 {
+        margin-top: 10px;
+    }
+
+    #services .cards .card3 img {
+        width: 165px;
+        height: 140px;
+    }
+
+    #services .cards .card3 .part2 h4 {
+        font-size: medium;
+    }
+
+    #services .cards .card4 {
+        margin-top: 10px;
+    }
+
+    #services .cards .card4 img {
+        width: 160px;
+        height: 140px;
+    }
+
+    #services .cards .card4 .part2 h4 {
+        font-size: medium;
+    }
+
+    /* ======================pricing======================= */
+    #pricing .content .text h2 {
+        font-size: x-large;
+    }
+
+    #pricing .content .text p {
+        font-size: small;
+    }
+
+    #pricing .content .text .btn a {
+        font-size: small;
+    }
+
+    #pricing .content .img img {
+        width: 300px;
+        height: 380px;
+    }
+
+    /* ======================study======================= */
+    #study .content h2 {
+        font-size: large;
+    }
+
+    #study .content p {
+        font-size: smaller;
+    }
+
+    footer .parts p {
+        font-size: x-small;
+        max-width: 140px;
+    }
+
+    footer .parts .line p {
+        display: none;
+    }
+
+    footer .parts {
+        padding-right: 5px;
+    }
+}
+
+@media(min-width:1025px) and (max-width:1250px) {
+
+    section,
+    footer {
+        margin-right: 5%;
+        margin-left: 5%;
+        margin-top: 3%;
+    }
+
+    #home .navbar .logo .l-name h3 {
+        font-size: large;
+    }
+
+    #home .navbar .logo img {
+        width: 55px;
+        height: 55px;
+    }
+
+    #home .navbar .links a {
+        font-size: large;
+    }
+
+    #home .navbar .btn a {
+        font-size: large;
+    }
+
+    #home .hero-sec .text h1 {
+        font-size: xx-large;
+    }
+
+    #home .hero-sec .text p {
+        font-size: medium;
+    }
+
+    #home .hero-sec .btn2 a {
+        font-size: medium;
+        padding: 10px;
+    }
+
+    #home .hero-sec .img img {
+        width: 400px;
+        height: 320px;
+        margin-top: 40px;
+    }
+
+    /* ======================services======================= */
+    #services .company {
+        margin: 20px;
+        margin-left: 40px;
+    }
+
+    #services .img1 {
+        width: 180px;
+        height: 120px;
+    }
+
+    #services .img2 {
+        width: 150px;
+        height: 120px;
+        padding-top: 10px;
+    }
+
+    #services .img3 {
+        width: 130px;
+        height: 50px;
+        padding-bottom: 30px;
+        margin: 5px;
+        margin-left: 8px;
+    }
+
+    #services .img4 {
+        width: 160px;
+        height: 120px;
+    }
+
+    #services .img5 {
+        width: 160px;
+        height: 110px;
+        padding-bottom: 10px;
+    }
+
+    #services .main-text h2 {
+        font-size: x-large;
+    }
+
+    #services .main-text p {
+        font-size: small;
+        margin-left: 20px;
+    }
+
+    #services .cards {
+        display: flex;
+        margin-left: 10px;
+        margin-right: auto;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #services .cards .card4 .part1 h2,
+    #services .cards .card3 .part1 h2,
+    #services .cards .card2 .part1 h2,
+    #services .cards .card1 .part1 h2 {
+        font-size: x-large;
+    }
+
+    #services .cards .card4 .parts,
+    #services .cards .card3 .parts,
+    #services .cards .card2 .parts,
+    #services .cards .card1 .parts {
+        padding: 10px;
+    }
+
+    #services .cards .part2 i {
+        font-size: x-large;
+        color: #73809d;
+    }
+
+    #services .cards .card1 {
+        margin-top: 20px;
+    }
+
+    #services .cards .card1 img {
+        width: 220px;
+        height: 220px;
+        margin-left: 60px;
+    }
+
+    #services .cards .card1 .part2 h4 {
+        font-size: medium;
+    }
+
+    #services .cards .card2 {
+        margin-top: 20px;
+    }
+
+    #services .cards .card2 img {
+        width: 224px;
+        height: 200px;
+        margin-left: 60px;
+    }
+
+    #services .cards .card2 .part2 h4 {
+        font-size: medium;
+    }
+
+    #services .cards .card3 {
+        margin-top: 20px;
+    }
+
+    #services .cards .card3 img {
+        width: 220px;
+        height: 200px;
+        margin-left: 60px;
+    }
+
+    #services .cards .card3 .part2 h4 {
+        font-size: medium;
+    }
+
+    #services .cards .card4 {
+        margin-top: 20px;
+    }
+
+    #services .cards .card4 img {
+        width: 242px;
+        height: 202px;
+        margin-left: 60px;
+    }
+
+    #services .cards .card4 .part2 h4 {
+        font-size: medium;
+    }
+
+
+    /* ======================pricing======================= */
+    #pricing .content .text h2 {
+        font-size: xx-large;
+    }
+
+    #pricing .content .text p {
+        font-size: medium;
+    }
+
+    #pricing .content .text .btn a {
+        font-size: medium;
+    }
+
+    #pricing .content .img img {
+        width: 350px;
+        height: 410px;
+    }
+
+    /* ======================study======================= */
+    #study .content h2 {
+        font-size: x-large;
+    }
+
+    #study .content p {
+        font-size: 15px;
+        margin-left: 20px;
+    }
+
+    footer .parts p {
+        font-size: small;
+        max-width: 190px;
+    }
+
+    footer .parts .line p {
+        display: none;
+    }
+
+    footer .parts {
+        padding-right: 5px;
+    }
+}
+
+@media(min-width:1251px) {
+
+    section,
+    footer {
+        margin-right: 5%;
+        margin-left: 5%;
+        margin-top: 3%;
+    }
+
+    #home .navbar .logo .l-name h3 {
+        font-size: large;
+    }
+
+    #home .navbar .logo img {
+        width: 65px;
+        height: 65px;
+    }
+
+    #home .navbar .links a {
+        font-size: large;
+    }
+
+    #home .navbar .btn a {
+        font-size: large;
+    }
+
+    #home .hero-sec .text h1 {
+        font-size: xx-large;
+    }
+
+    #home .hero-sec .text p {
+        font-size: medium;
+    }
+
+    #home .hero-sec .btn2 a {
+        font-size: medium;
+        padding: 10px;
+    }
+
+    #home .hero-sec .img img {
+        width: 550px;
+        height: 470px;
+        margin-top: 40px;
+    }
+
+    /* ======================services======================= */
+    #services .company {
+        /* margin: 40px;
+        margin-left: 70px; */
+        text-align: center;
+    }
+
+    #services .img1 {
+        width: 200px;
+        height: 150px;
+    }
+
+    #services .img2 {
+        width: 190px;
+        height: 140px;
+        padding-top: 10px;
+    }
+
+    #services .img3 {
+        width: 170px;
+        height: 70px;
+        padding-bottom: 30px;
+        margin: 5px;
+        margin-left: 8px;
+    }
+
+    #services .img4 {
+        width: 190px;
+        height: 160px;
+        margin-left: 15px;
+    }
+
+    #services .img5 {
+        width: 190px;
+        height: 140px;
+        padding-bottom: 10px;
+
+    }
+
+    #services .main-text h2 {
+        font-size: xx-large;
+    }
+
+    #services .main-text p {
+        font-size: medium;
+        margin-left: 20px;
+    }
+
+    #services .cards {
+        display: flex;
+        margin-left: 10px;
+        margin-right: auto;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #services .cards .card4 .part1 h2,
+    #services .cards .card3 .part1 h2,
+    #services .cards .card2 .part1 h2,
+    #services .cards .card1 .part1 h2 {
+        font-size: xx-large;
+    }
+
+    #services .cards .card4 .parts,
+    #services .cards .card3 .parts,
+    #services .cards .card2 .parts,
+    #services .cards .card1 .parts {
+        padding: 10px;
+    }
+
+    #services .cards .part2 i {
+        font-size: x-large;
+        color: #73809d;
+    }
+
+    #services .cards .card1 {
+        margin-top: 30px;
+    }
+
+    #services .cards .card1 img {
+        width: 260px;
+        height: 240px;
+        margin-left: 70px;
+    }
+
+    #services .cards .card1 .part2 h4 {
+        font-size: medium;
+    }
+
+    #services .cards .card2 {
+        margin-top: 30px;
+    }
+
+    #services .cards .card2 img {
+        width: 254px;
+        height: 220px;
+        margin-left: 70px;
+    }
+
+    #services .cards .card2 .part2 h4 {
+        font-size: medium;
+    }
+
+    #services .cards .card3 {
+        margin-top: 30px;
+    }
+
+    #services .cards .card3 img {
+        width: 270px;
+        height: 240px;
+        margin-left: 70px;
+    }
+
+    #services .cards .card3 .part2 h4 {
+        font-size: medium;
+    }
+
+    #services .cards .card4 {
+        margin-top: 30px;
+    }
+
+    #services .cards .card4 img {
+        width: 282px;
+        height: 242px;
+        margin-left: 70px;
+    }
+
+    #services .cards .card4 .part2 h4 {
+        font-size: medium;
+    }
+
+    /* ======================pricing======================= */
+    #pricing .content .text h2 {
+        font-size: xx-large;
+    }
+
+    #pricing .content .text p {
+        font-size: medium;
+    }
+
+    #pricing .content .text .btn a {
+        font-size: large;
+    }
+
+    #pricing .content .img img {
+        width: 410px;
+        height: 410px;
+    }
+
+    /* ======================study======================= */
+    #study .content h2 {
+        font-size: xx-large;
+    }
+
+    #study .content p {
+        font-size: 17px;
+        margin-left: 20px;
+    }
+
+    footer .parts p {
+        font-size: medium;
+        max-width: 230px;
+    }
+
+    footer .parts {
+        padding-right: 5px;
+    }
+}
